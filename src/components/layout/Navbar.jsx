@@ -1,0 +1,19 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import SignedInLinks from './SignedInLinks';
+import SignedOutLinks from './SingedOutLinks';
+
+export default function Navbar() {
+  return (
+    <nav className="nav-wrapper grey darken-3">
+      <div class="container">
+        <Link to="/" className="brand-logo left">
+          {' '}
+          MarioPlan
+        </Link>
+        <SignedInLinks />
+        <SignedOutLinks />
+      </div>
+    </nav>
+  );
+}

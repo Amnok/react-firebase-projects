@@ -6,7 +6,7 @@ import SignedOutLinks from './SingedOutLinks';
 export default function Navbar() {
   return (
     <nav className="nav-wrapper grey darken-3">
-      <div class="container">
+      <div className="container">
         <Link to="/" className="brand-logo left">
           {' '}
           MarioPlan
